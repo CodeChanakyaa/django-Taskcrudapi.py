@@ -37,6 +37,7 @@ jobs:
                 pip install coverage
             - name: Coverage report
               run:
+                python manage.py test
                 coverage run manage.py test
                 coverage report
             - name: Django Testing
