@@ -1,5 +1,5 @@
 from django.test import TestCase
-from Api.models import *
+from Api.models import Task
 from django.core.exceptions import ValidationError
 
 

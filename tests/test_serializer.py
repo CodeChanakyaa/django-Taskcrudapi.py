@@ -1,7 +1,4 @@
-from contextlib import AbstractContextManager
-from typing import Any
-from Api.models import *
-from Api.serializers import *
+from Api.serializers import TaskSerializer
 from rest_framework.test import APITestCase
 
 

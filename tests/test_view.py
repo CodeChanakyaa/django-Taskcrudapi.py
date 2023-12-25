@@ -1,6 +1,5 @@
-from rest_framework.test import APITestCase, APIClient
-from Api.models import *
-from Api.serializers import *
+from rest_framework.test import APITestCase
+from Api.models import Task
 from rest_framework import status
 
 
