@@ -34,7 +34,7 @@ jobs:
                 flake8
             - name: Install specific version of run package
               run:
-                pip install  --upgrade run
+                pip install --upgrade run
             - name: Coverage report
               run:
                 pip install coverage
