@@ -34,8 +34,8 @@ jobs:
                 flake8
             - name: Coverage report
               run:
-                pip install coverage,
-                coverage run manage.py test,
+                pip install coverage
+                coverage run manage.py test
                 coverage report
             - name: Django Testing
               run:
