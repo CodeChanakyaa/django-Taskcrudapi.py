@@ -4,6 +4,7 @@ from Api.models import *
 from Api.serializers import *
 from rest_framework.test import APITestCase
 
+
 class TaskSerializerTest(APITestCase):
     def test_task_serializer_valid_data(self):
         data = {

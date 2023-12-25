@@ -2,6 +2,7 @@ from django.test import TestCase
 from Api.models import *
 from django.core.exceptions import ValidationError
 
+
 class TaskModelTest(TestCase):
     def test_create_task(self):
         title = "Task Name"

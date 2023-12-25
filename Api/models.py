@@ -5,6 +5,7 @@ from django.forms import ValidationError
 Task_Status = ["OPEN", "WORKING", "DONE", "OVERDUE"]
 Task_Status_Sorted = sorted([(item, item) for item in Task_Status])
 
+
 class Task(models.Model):
     title = models.CharField(max_length=100, blank=True)
     desc = models.TextField(blank=True)
@@ -21,6 +22,6 @@ class Task(models.Model):
     # logic for due_date
     def clean(self):
         super().clean()
-    
+
         if self.due_date < self.time_stamp:
             raise ValidationError("Due date must be greater than current date")
