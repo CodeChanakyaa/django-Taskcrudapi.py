@@ -1,13 +1,13 @@
 name: Django Tests
 
 on:
-    push:
-        branches:
-            - main
+  push:
+    branches:
+      - main
 
-    pull_request:
-        branches:
-            - main
+  pull_request:
+    branches:
+      - main
 
 # on:
 #     schedule:
@@ -32,9 +32,6 @@ jobs:
               run:
                 pip install flake8
                 flake8
-            - name: Install specific version of run package
-              run:
-                pip install run
             - name: Coverage report
               run:
                 pip install coverage
