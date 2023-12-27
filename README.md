@@ -28,3 +28,7 @@ If above migrate command not working, run this command :
 You can now run the development server:
 
     $ python manage.py runserver
+
+Displying coverage report :
+
+![Alt text](/blob/main/Screenshot%20(2).png?raw=true "Optional Title")
