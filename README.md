@@ -29,6 +29,6 @@ You can now run the development server:
 
     $ python manage.py runserver
 
-Displying coverage report :
+Displaying coverage report :
 
 ![Alt text](/Screenshot%20(2).png?raw=true "Optional Title")
