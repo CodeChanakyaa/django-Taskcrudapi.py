@@ -31,4 +31,4 @@ You can now run the development server:
 
 Displying coverage report :
 
-![Alt text](/main/Screenshot%20(2).png?raw=true "Optional Title")
+![Alt text](/Screenshot%20(2).png?raw=true "Optional Title")
