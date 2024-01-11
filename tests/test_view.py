@@ -17,7 +17,7 @@ class TaskViewTest(APITestCase):
         data = {
             'title': "Task Name",
             'desc': "Description",
-            'due_date': "2023-12-28",
+            'due_date': "2024-06-28",
             'tags': "a,b",
             'status': "OPEN"
         }
@@ -42,7 +42,7 @@ class TaskViewTest(APITestCase):
         data = {
             'title': "Task 2",
             'desc': "Description 2",
-            'due_date': "2023-12-28",
+            'due_date': "2024-06-28",
             'tags': "tag2,tag3",
             'status': "WORKING"
         }
@@ -69,7 +69,7 @@ class TaskViewTest(APITestCase):
         data = {
             'title': "Task Name",
             'desc': "Description",
-            'due_date': "2023-12-28",
+            'due_date': "2024-06-28",
             'tags': "a,b",
             'status': "WORKING"
         }

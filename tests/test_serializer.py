@@ -7,7 +7,7 @@ class TaskSerializerTest(APITestCase):
         data = {
             'title': "Task Name",
             'desc': "Description",
-            'due_date': "2023-12-28",
+            'due_date': "2024-06-28",
             'tags': "a,b",
             'status': "OPEN"
         }
