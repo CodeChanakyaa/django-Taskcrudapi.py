@@ -2,7 +2,7 @@
 
 First clone the repository from Github and switch to the new directory:
 
-    $ git clone https://github.com/CodeChanakyaa/django-Taskcrudapi.py.git
+    $ git clone https://github.com/shivamforever/django-Taskcrudapi.py.git
 
 Now change directory to:
 
